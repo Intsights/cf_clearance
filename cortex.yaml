@@ -1,0 +1,17 @@
+---
+info:
+  title: Cf Clearance
+  description: Purpose To make a cloudflare challenge pass successfully, Can be use
+    cf_clearance bypassed by cloudflare, However, with the cf_clearance, make sure
+    you use the same IP and UA as when you got it.
+  x-cortex-git:
+    github:
+      alias: intsightsorg
+      repository: Intsights/cf_clearance
+  x-cortex-tag: cf-clearance
+  x-cortex-type: service
+  x-cortex-domain-parents:
+  - tag: threatintel-rd
+openapi: 3.0.1
+servers:
+- url: "/"
